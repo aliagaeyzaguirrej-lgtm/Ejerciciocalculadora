@@ -2,7 +2,8 @@ bodega = [
     {"nombre": "Mouse", "precio": 15000, "stock": 10},
     {"nombre": "Teclado", "precio": 25000, "stock": 0},
     {"nombre": "Monitor", "precio": 120000, "stock": 5},
-    {"nombre": "Cable HDMI", "precio": 8000, "stock": 0}
+    {"nombre": "Cable de Red", "precio": 8000, "stock": 0},
+    {"nombre": "Cargadores", "precio": 5000, "stock": 90}
 ]
 print("informe de la bodega")
 total_invercion= 0
@@ -15,3 +16,5 @@ for item in bodega:
         print(f"{item["nombre"]}: hay {item["stock"]} unidades disponibles")
 print("-"*30)
 print(f"total capital invertido en stock: ${total_invercion}")
+print(f"Obsersavion general de la bodega: {bodega}")
+
